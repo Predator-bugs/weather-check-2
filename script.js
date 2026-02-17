@@ -79,7 +79,7 @@ async function updateWeatherInfo(city) {
   humidityText.textContent = humidity + "%";
   windValue.textContent = Math.round((speed * 3600) / 1000) + " Km/h";
 
-  weatherSummary.src = `/weather/${getWeatherIcon(id)}`;
+  weatherSummary.src = `weather/${getWeatherIcon(id)}`;
 
   await updateForcatInfo(city);
   showDisplaySection(weatherInfo);
