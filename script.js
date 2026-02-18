@@ -121,7 +121,7 @@ function updateForecatItem(weatherDate) {
     <div class="forcast-item">
       <h5 class="forcast-item-data regular-text">${dateResult}</h5>
       <img src="weather/${getWeatherIcon(id)}" class="forcast-item-img" />
-      <h5 class="forcast-item-temp">${Math.round(temp)} °C</h5>
+      <h5 class="forcast-item-temp">${Math.round(temp)} \u00B0C</h5>
     </div>
   `;
 
